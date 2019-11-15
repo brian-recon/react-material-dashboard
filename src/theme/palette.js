@@ -2,6 +2,7 @@ import { colors } from '@material-ui/core';
 
 const white = '#FFFFFF';
 const black = '#000000';
+const reconMain = '#37474F';
 
 export default {
   black,
@@ -9,7 +10,7 @@ export default {
   primary: {
     contrastText: white,
     dark: colors.indigo[900],
-    main: colors.indigo[500],
+    main: reconMain,
     light: colors.indigo[100]
   },
   secondary: {

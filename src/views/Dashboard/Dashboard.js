@@ -15,7 +15,7 @@ import {
 
 const useStyles = makeStyles(theme => ({
   root: {
-    padding: theme.spacing(4)
+    padding: theme.spacing(2)
   }
 }));
 
@@ -26,7 +26,7 @@ const Dashboard = () => {
     <div className={classes.root}>
       <Grid
         container
-        spacing={4}
+        spacing={2}
       >
         <Grid
           item
